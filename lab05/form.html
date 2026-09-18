@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learning Forms</title>
+  </head>
+  <body>
+    <form action="/register" method="get">
+      <label for="name">Enter your name </label>
+      <input type="text" name="Name" placeholder="Enter your name" id="name" />
+      <br>
+      <br>
+      <label for="age">Enter your age </label>
+      <input type="number" name="Age" placeholder="Enter your age" id="age" required min="1" max="100">
+      <br>
+      <br>
+      <label for="date">Enter your date of birth </label>
+      <input type="date" name="Date" id="date">
+      <br>
+      <br>
+      <label for="color">Enter your color </label>
+      <input type="color" name="Color" id="color">
+      <br>
+      <br>
+      <label for="radio">Enter your gender </label>
+      <input type="radio" name="gender" value="male" id="radio">MALE 
+      <input type="radio" name="gender" value="female" id="radio">FEMALE
+      <br>
+      <br>
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+    </form>
+  </body>
+</html>
